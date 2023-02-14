@@ -1,0 +1,29 @@
+.container{
+    padding: 0;
+    width: 600px;
+    height: 400px;
+    background-image: url(../img/pic-1.jpg);
+    transition: 2s;
+}
+#left, #right{
+    margin: 0;
+    height: 400px;
+    width: 40px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 25px;
+    background-color: none;
+    cursor: pointer;
+}
+#left:hover, #right:hover{
+    background-color: rgba(0, 0, 0, 0.300);
+}
+#left:active, #right:active{
+    background-color: rgba(0, 0, 0, 0.600);
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
